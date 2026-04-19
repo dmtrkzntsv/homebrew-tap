@@ -1,28 +1,28 @@
 class Gosaid < Formula
   desc "Headless cross-platform push-to-talk voice dictation daemon"
   homepage "https://github.com/dmtrkzntsv/gosaid"
-  version "0.1.5"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.1.5/gosaid-0.1.5-darwin-arm64.tar.gz"
-      sha256 "deab53b297fcb971f934b31fc9a253ac6bc3b50dbda08e47a87dcdc12ead4049"
+      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.2.0/gosaid-0.2.0-darwin-arm64.tar.gz"
+      sha256 "964aaee45e3a5ea120d750e790d8cacee14df00af083883d8b85d45437b833c3"
     end
     on_intel do
-      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.1.5/gosaid-0.1.5-darwin-amd64.tar.gz"
-      sha256 "dd55eb6f76da6e26658884f58005112c92f229b6a5552a1a60fc4da61de3ff1e"
+      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.2.0/gosaid-0.2.0-darwin-amd64.tar.gz"
+      sha256 "7611e8c65957149938d0cc072fd6a72e131667943d008fa182aceef0cc3474de"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.1.5/gosaid-0.1.5-linux-arm64.tar.gz"
-      sha256 "1354a9411be12c75b8367eb6d618aef2582627e7d59eb5cc6db5835ed57ce2c0"
+      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.2.0/gosaid-0.2.0-linux-arm64.tar.gz"
+      sha256 "6d49e9defba61c41e8d442d3f82aae11f6d6a33b2630ebcdca55c9ae8bc91070"
     end
     on_intel do
-      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.1.5/gosaid-0.1.5-linux-amd64.tar.gz"
-      sha256 "28798d0ca59f8af5ac06c93675528ee3229ba6dfa52bdbff937401e79eba28d0"
+      url "https://github.com/dmtrkzntsv/gosaid/releases/download/v0.2.0/gosaid-0.2.0-linux-amd64.tar.gz"
+      sha256 "79e1d09810fb77976d3487514483f6665438d762da3eaa613cb654e642ee1171"
     end
   end
 
