@@ -1,27 +1,27 @@
 class Ship < Formula
   desc "Publish and run lab services from R2"
   homepage "https://github.com/dmtrkzntsv/ship"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.0/ship-v0.2.0-darwin-arm64.tar.gz"
-      sha256 "335ccbc3969867fa8da4e66c69401f7fcc2ef3f268dff316f6135a151c938820"
+      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.1/ship-v0.2.1-darwin-arm64.tar.gz"
+      sha256 "e35903f34ca19a3324499091a8710096b49f53b266df2b00ddf29216f29eee27"
     end
     on_intel do
-      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.0/ship-v0.2.0-darwin-amd64.tar.gz"
-      sha256 "02efed3ca9da142e3e504bd1a1e83580b25aa4247f54ab4a2438479884e42a49"
+      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.1/ship-v0.2.1-darwin-amd64.tar.gz"
+      sha256 "f5a770022f4c5daf2e3589d407ba2532687919956dbb318178154521b35d9782"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.0/ship-v0.2.0-linux-arm64.tar.gz"
-      sha256 "62225480b5fe1f3674a532dbba9e03471d8c07a4058c64f3cba7b2bfaaf17b9f"
+      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.1/ship-v0.2.1-linux-arm64.tar.gz"
+      sha256 "310e2545b0a31ed572556d1739b43da9b9e1561a879906448892ebd7cb88d5cf"
     end
     on_intel do
-      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.0/ship-v0.2.0-linux-amd64.tar.gz"
-      sha256 "5155d19546fbe74b061912ebc29242c7074c817d6e658b6e50d3db01aad9ec34"
+      url "https://github.com/dmtrkzntsv/ship/releases/download/v0.2.1/ship-v0.2.1-linux-amd64.tar.gz"
+      sha256 "8011118acd2607e8567133f688db6e318cf5b81f5e037fe6b5197136c09c2db1"
     end
   end
 
